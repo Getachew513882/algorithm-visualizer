@@ -80,7 +80,7 @@ class  App extends Component {
         this.setState( {thenewUI : this.state.MySortingDatas.map( detailinfo => <BubbleSort key={detailinfo.id}  height = {detailinfo.heightofthetower} value={detailinfo.valueoftower}  transition ={0}  marginLeft = {detailinfo.MarginLeft} backgroundColor = {detailinfo.backgroundColor}/> )}); 
     }
 
-    starttheloop = () =>
+    startTheLoop = () =>
     {
       this.loop1( this.state.loop1index );
     }
@@ -189,7 +189,7 @@ class  App extends Component {
           <div className="theUI">
                 {this.state.thenewUI}
           </div>
-              <button onClick={ this.starttheloop }> { this.state.buttoname } </button>
+              <button onClick={ this.startTheLoop }> { this.state.buttoname } </button>
         </div>
       );
     }
