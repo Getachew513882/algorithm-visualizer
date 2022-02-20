@@ -1,0 +1,39 @@
+.theUI
+{
+     position:absolute;
+     height:300px;
+     margin-left:200px;
+     top: 100px;
+}
+
+.theUI div
+{
+    bottom: 0;
+    position: absolute;
+}
+
+.parent
+{
+    display: inline-block;
+}
+.parent button{
+    margin-left: 540px;
+    margin-top:500px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:green;
+    color: white;
+    font-size: 20px;
+}
+
+.paragraph
+{
+     text-align: center;
+     font-size: 30px;
+     margin: auto;
+     top:0;
+     left:0;
+     right:0;
+     bottom:0;
+}

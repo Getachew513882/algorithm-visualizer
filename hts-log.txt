@@ -1,0 +1,16 @@
+HTTrack3.49-2 launched on Tue, 08 Feb 2022 16:18:32 at ]
+(httrack ] )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:18:32	Warning: 	Cache: damaged cache, trying to repair
+16:18:32	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
+16:18:32	Warning: 	Cache: error trying to open the cache
+16:18:32	Error: 	"Unable to get server's address: Name or service not known" (-5) after 2 retries at link ]/robots.txt (from primary/primary)
+16:18:32	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ]/ (from primary/primary)
+16:18:32	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ]/ (from primary/primary)
+16:18:32	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link ]/ (from primary/primary)
+16:18:32	Warning: 	No data seems to have been transferred during this session! : restoring previous one!
